@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width:200px;
+    height:130px;
+    margin: 10px 30px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    padding: 9px 25px;
+    background-color: black;
+    border-radius:40px;
+    color:aliceblue;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    border:2px solid;
+    border-color: black;
+    color:black;
+}
+.intro{
+    text-align: center;
+    margin-top: 100px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.productcont{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product{
+    padding:1em;
+    border: 1px solid black;
+    margin-right:1em;
+    border-radius: 5px;
+}
+.jeans{
+    width:360px;
+    height:509px;
+}
+
+.cart-container{
+    border:1px solid black;
+    border-radius:5px;
+    padding:1em;
+    margin: 1em  150px ;
+}
+
+table{
+    margin-bottom:1em;
+    border-collapse: collapse;
+}
+table td ,table th {
+    text-align:center;
+    padding: 0 4em 1em;
+    border-bottom:1px solid black;
+}
+#carttotals{
+    margin-top:50px;
+}
+.cartbtn{
+    margin-right:0;
+    margin-left:auto;
+    display:flex;
+    justify-content: flex-end;
+    padding:1em 0;
+}
+#emptycart{
+    margin-right:1em;
+}
+.credit{
+    text-align:center;
+}
+
+.heart{
+    background:transparent;
+    border:none;
+    font-size:25px;
+    color:black;
+
+}
+#cart{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h2{
+    padding-right:20px;
+}
+
+
+
+

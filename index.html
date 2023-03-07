@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shopping cart</title>
+</head>
+<body>
+    <header class="navigation">
+        <img class="logo" src="logo.jpg" alt="logo">
+        <button class="btn">Contact Us</button>
+    </header>
+
+    <section class="intro">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellendus unde a nulla quis? Illum illo eius, minima, et vel sapiente, molestias nisi voluptate dolor quidem voluptatibus placeat molestiae quo.</p>
+    </section>
+
+    <section class="container">
+        <div class="productcont" id="items">
+            <div class="product">
+                <h3 class="productname"> Sweater </h3>
+                <img src="sweater.png" alt="sweater">
+                <p class="price">$<span>150</span> </p>
+                <button class="addtocart btn"> Add To Cart</button>
+                <button id="btn1" class="heart" onclick="toggle1()"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product">
+                <h3 class="productname"> Jeans </h3>
+                <img  class="jeans" src="jeans.png" alt="jeans">
+                <p class="price">$ <span>98</span> </p>
+                <button class="addtocart btn"> Add To Cart</button>
+                <button id="btn2" class="heart" onclick="toggle2()"><i class="fa-regular fa-heart"></i></button>
+            </div>
+            <div class="product">
+                <h3 class="productname"> Sneakers </h3>
+                <img class="jeans" src="sneaker.png" alt="sneakers">
+                <p class="price">$<span>200</span> </p>
+                <button class="addtocart btn"> Add To Cart</button>
+                <button id="btn3" class="heart" onclick="toggle3()"><i class="fa-regular fa-heart"></i></button>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <div class="cart-container">
+            <div id="cart">
+                <h2>Cart</h2>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <ul>
+                <li></li>
+            </ul>
+            <p>Total: $ <span id="total">0</span></p>  
+        <div class="cartbtn">
+            <button class="btn" id="emptycart">Empty Cart</button>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <footer class="credit"> ©Fashion Superior Website </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
